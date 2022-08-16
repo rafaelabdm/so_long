@@ -33,4 +33,4 @@ It's a very basic mechanics: Fiuka collects the socks and run to her house witho
 Yes... I'm the bad guy.<br>
 </p>
 
-<p align="center"> ![Sem título](https://user-images.githubusercontent.com/102771790/184930604-dd0f4972-49e6-4681-b8b9-16aa47c362a9.png) <\p>
+![Sem título](https://user-images.githubusercontent.com/102771790/184930604-dd0f4972-49e6-4681-b8b9-16aa47c362a9.png)
