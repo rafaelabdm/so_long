@@ -49,7 +49,7 @@ int	ft_init_traps(t_data *game)
 	if (!game->t_pos.x || !game->t_pos.y)
 		return (-1);
 	game->t_pos.x[game->map.trap] = 0;
-	game->t_pos.x[game->map.trap] = 0;
+	game->t_pos.y[game->map.trap] = 0;
 	ft_set_traps(game);
 	return (0);
 }
