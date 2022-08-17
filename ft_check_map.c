@@ -12,10 +12,10 @@
 
 #include "so_long.h"
 
-int		ft_init_positions(t_data *game, int i, int j);
-int		ft_check_requirements(t_data *game);
-int		ft_check_extention(const char *file);
-void	ft_set_map_layout(t_data *game, char *file);
+int	ft_init_positions(t_data *game, int i, int j);
+int	ft_check_requirements(t_data *game);
+int	ft_check_extention(const char *file);
+int	ft_set_map_layout(t_data *game, char *file);
 void	ft_init_map_layout(t_data *game);
 
 void	ft_init_map_layout(t_data *game)
@@ -77,7 +77,7 @@ int	ft_check_extention(const char *file)
 	return (0);
 }
 
-void	ft_set_map_layout(t_data *game, char *file)
+int	ft_set_map_layout(t_data *game, char *file)
 {
 	int		fd;
 	int		i;
@@ -98,11 +98,12 @@ void	ft_set_map_layout(t_data *game, char *file)
 	if (ft_check_requirements(game) < 0)
 	{
 		free(tmp);
-		return ;
+		return (-1);
 	}
 	ft_get_map_width(game, tmp);
 	ft_write_map(game, tmp);
 	free(tmp);
+	return (0);
 }
 
 int	ft_init_positions(t_data *game, int i, int j)
