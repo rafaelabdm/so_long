@@ -95,7 +95,8 @@ int	ft_check_error(t_data *game, char *file)
 		return (-1);
 	ft_init_map_layout(game);
 	ft_count_map_rows(game, file);
-	ft_set_map_layout(game, file);
+	if (ft_set_map_layout(game, file) < 0)
+		return (-1);
 	if (ft_check_rectangle(game) < 0 || ft_check_walls(game) < 0)
 	{
 		ft_free_map(game);
