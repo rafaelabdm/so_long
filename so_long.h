@@ -84,8 +84,8 @@ int		ft_check_extention(const char *file);
 
 //functions for layout inicialization or release
 int		ft_init_positions(t_data *game, int i, int j);
+int		ft_set_map_layout(t_data *game, char *file);
 void	ft_init_map_layout(t_data *game);
-void	ft_set_map_layout(t_data *game, char *file);
 void	ft_count_map_rows(t_data *game, char *file);
 void	ft_set_stats(t_data *game, char *tmp);
 void	ft_get_map_width(t_data *game, char *tmp);
@@ -102,12 +102,12 @@ void	ft_move(int key, t_data *game);
 //functions that handles the traps
 int		ft_init_traps(t_data *game);
 int		ft_trap_anim(t_data *game);
-void	ft_set_traps(t_data *game);
 int		ft_move_trap_down(t_data *game, int i);
 int		ft_move_trap_left(t_data *game, int i);
 int		ft_move_trap_right(t_data *game, int i);
 int		ft_move_trap_up(t_data *game, int i);
 int		ft_move_trap(t_data *game);
+void	ft_set_traps(t_data *game);
 
 //functions that handles drawing
 int		ft_render(t_data *game);
