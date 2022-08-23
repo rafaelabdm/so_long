@@ -15,6 +15,7 @@
 int		ft_init_traps(t_data *game);
 int		ft_trap_anim(t_data *game);
 void	ft_set_traps(t_data *game);
+void	ft_free_traps(t_data *game);
 
 void	ft_set_traps(t_data *game)
 {
@@ -81,4 +82,10 @@ int	ft_trap_anim(t_data *game)
 	}
 	ft_move_trap(game);
 	return (0);
+}
+
+void	ft_free_traps(t_data *game)
+{
+	free(game->t_pos.y);
+	free(game->t_pos.x);
 }
