@@ -108,6 +108,7 @@ int		ft_move_trap_right(t_data *game, int i);
 int		ft_move_trap_up(t_data *game, int i);
 int		ft_move_trap(t_data *game);
 void	ft_set_traps(t_data *game);
+void	ft_free_traps(t_data *game);
 
 //functions that handles drawing
 int		ft_render(t_data *game);
