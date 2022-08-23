@@ -24,6 +24,13 @@ int	main(int argc, char **argv)
 	if (ft_check_error(&game, argv[1]) < 0)
 		return (0);
 	game.mlx = mlx_init();
+	if (game.mlx == NULL)
+	{
+		write(1, "Error\nMissing graphical interface.\n", 35);
+		ft_free_map(&game);
+		ft_free_traps(&game);
+		return (0);
+	}
 	game.win = mlx_new_window(game.mlx, game.map.width * PIXEL, \
 		game.map.height * PIXEL, "Fiuka Socks!");
 	ft_create_images(&game);
