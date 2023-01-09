@@ -40,3 +40,11 @@ It's a very basic mechanics: Fiuka collects the socks and run to her house witho
 </p>
 
 ![Sem título](https://user-images.githubusercontent.com/102771790/184930604-dd0f4972-49e6-4681-b8b9-16aa47c362a9.png)
+
+<h3>COMO JOGAR:</h3>
+<p>
+Você precisa da biblioteca da MiniLibX instalada e rodar em um ambiente com interface gráfica;<br>
+<b>Comando do terminal:</b> <TT> ./so_long 'map_you_want_to_play' </TT>;<br>
+<SUB>O mapa precisa ter pelo menos 1 player (P), pelo menos 1 coletável (C), pelo menos 1 saída (E) e se cercado por paredes (1);</SUB>
+</p>
+
