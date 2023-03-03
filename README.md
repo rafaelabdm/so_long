@@ -34,7 +34,7 @@ Esse jogo foi inspirado pela minha cachorra "Fiuka". Ela está sempre tentando p
 A mecânica é bem simples: Fiuka pega as meias e corre para casinha dela sem que eu a pegue.<br>
 <br>
 This game was inspired by my dog "Fiuka". She's always tring to get my socks so I go runnig after her.<br>
-It's a very basic mechanics: Fiuka collects the socks and run to her house without me catching her.<br>
+It's very basic mechanics: Fiuka has to collect the socks and run to her house without me catching her.<br>
 <br>
 <b>Yes... I'm the bad guy.</b><br>
 </p>
